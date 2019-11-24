@@ -58,11 +58,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      /* esc      1        2        3        4       5       6       7       8       9         0        -         =     bkspc       `~  */
       KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_F5,  KC_F6,  KC_F7,  KC_F8,  KC_F9,   KC_F10,  KC_F11,   KC_F12,  KC_DEL,   KC_PSCR,
      /*  tab      Q       W        E        R        T      Y        U      I        O        P        [         ]        \      delete*/
-      KT_TRNS, KT_TRNS, KT_TRNS, KT_TRNS, RESET,  KT_TRNS,KT_TRNS,KT_TRNS,KC_INS, KT_TRNS, KT_TRNS, KT_TRNS,  KC_PAUS, KT_TRNS,  KT_TRNS,
+      ___o___, ___o___, ___o___, ___o___, RESET,  ___o___,___o___,___o___,KC_INS, ___o___, ___o___, ___o___,  KC_PAUS, ___o___,  ___o___,
      /*  caps     A       S        D        F        G      H        J      K        L        ;        '        enter             pg up*/
-      KT_TRNS, KT_TRNS, KT_TRNS, KT_TRNS, KT_TRNS,KT_TRNS,KT_TRNS,KT_TRNS,KT_TRNS,KT_TRNS, KT_TRNS, KT_TRNS,  KC_INS,            KC_HOME,
+      ___o___, ___o___, ___o___, ___o___, ___o___,___o___,___o___,___o___,___o___,___o___, ___o___, ___o___,  KC_INS,            KC_HOME,
      /* shift             Z         X        C       V       B       N      M        ,        .        /        shift     up      pg dn*/
-      KC_LSFT, KT_TRNS, KT_TRNS, KT_TRNS, KT_TRNS,KT_TRNS,KT_TRNS,KT_TRNS,KC_MUTE, KT_TRNS, KT_TRNS, KT_TRNS,  KC_RSFT, KC_VOLU,  KC_END,
+      KC_LSFT, ___o___, ___o___, ___o___, ___o___,___o___,___o___,___o___,KC_MUTE, ___o___, ___o___, ___o___,  KC_RSFT, KC_VOLU,  KC_END,
      /* ctrl              alt                              space                    alt      fn                 left     down     right*/
-      KC_LCTL,          KC_LALT,                          KT_TRNS,                KC_RALT, KT_TRNS,            KT_TRNS, KC_VOLD,  KT_TRNS)
+      KC_LCTL,          KC_LALT,                          ___o___,                KC_RALT, ___o___,            ___o___, KC_VOLD,  ___o___)
 };
